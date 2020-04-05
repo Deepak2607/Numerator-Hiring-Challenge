@@ -1,6 +1,5 @@
 **Main files in the Assignment -**
 
-<br>
 
 `Games.js` - It includes a table containing all the games with all the API parameters as its attributes.
 
