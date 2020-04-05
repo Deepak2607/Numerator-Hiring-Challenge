@@ -20,7 +20,7 @@ class Games extends Component{
         
         componentDidMount=()=> {
             //fetching games details
-            axios.get("http://starlord.hackerearth.com/TopSellingGames").then(response=>{
+            axios.get("https://github.com/Deepak2607/Deepak2607.github.io/blob/master/Numerator_jsondata.json").then(response=>{
                 
                 const games= response.data; 
                 console.log(games);
