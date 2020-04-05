@@ -1,35 +1,27 @@
-**Pages in the Application-** 
-<br><br>
-**Restaurants Page-** 
+**Main files in the Assignment -**
 
- - It includes a table containing all the details of the restaurants.
- - API Parameters are taken as the attributes in the table.
- - the navigation bar has two search bars, one is to **search the restaurants by name**
-   and another is to **filter restaurants on the basis of cuisines**.
- - the attributes, `Rating`, `Votes` & `Average Cost for two` in the
-   the table have 2 buttons each to sort the restaurants in ascending/descending order of 
-   `Rating`, `Votes` & `Average Cost for two`.
- - Pagination is also implemented. each page contains 6 restaurants max.
+`Games.js` - It includes a table containing all the games with all the API parameters as its attributes.
 
+these all the games are fetched from the given Web API.
 
-**Map Page-** 
+There is a **Search Box** in its navigation bar which is used to find **All the Games containing the searched keyword in their `Name` attribute**.
 
- - It includes a Map containing the markers for all the restaurants.
- - restaurants can be seen by zoom in the map.
- - clicking on a marker shows the details (Restaurant ID & Address) of
-   that restaurant.
+the attributes, `Rank` & `Year` in the table have 2 buttons each to sort the games in ascending/descending order of `Rank` & `Year`.
+
+**Pagination** is also used in the above table, each page contains 8 records max.
 
 
-<br>
-**How to use the files-**
+`FullGame.js` -  It includes all details of a particular game. A user is redirected to this page when he clicks on any game in the above table.
 
- - Run `npm install` in the extracted folder
- - Run `npm start` to view the project
 
-<br>
 
- - I converted CSV files to JSON files and uploaded them on (https://deepak2607.github.io/XSEED_restaurants.json) &
-   (https://deepak2607.github.io/XSEED_restaurants2.json) to fetch the details of all the restaurants.
- 
+**How to use the files -**
+
+Run `npm install` in the extracted folder.
+
+Run `npm start` to view the project.
+
+Screenshots are present in the uploaded folder.
+
 
  
