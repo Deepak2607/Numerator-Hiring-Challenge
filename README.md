@@ -1,6 +1,7 @@
 **Main files in the Assignment -**
 
 <br>
+
 `Games.js` - It includes a table containing all the games with all the API parameters as its attributes.
 
 these all the games are fetched from the given Web API.
@@ -12,7 +13,10 @@ the attributes, `Rank` & `Year` in the table have 2 buttons each to sort the gam
 **Pagination** is also used in the above table, each page contains 8 records max.
 
 <br>
+
+
 `FullGame.js` -  It includes all details of a particular game. A user is redirected to this page when he clicks on any game in the above table.
+
 
 <br>
 
