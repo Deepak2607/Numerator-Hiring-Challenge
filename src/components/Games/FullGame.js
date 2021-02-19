@@ -13,7 +13,7 @@ class FullGame extends Component{
         
         componentDidMount=()=> {
             //fetching games details
-            axios.get("http://starlord.hackerearth.com/TopSellingGames").then(response=>{
+            axios.get("https://deepak2607.github.io/Numerator_jsondata.json").then(response=>{
                 
                 const games= response.data; 
                 console.log(this.props.match.params.id);
